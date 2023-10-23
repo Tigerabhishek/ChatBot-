@@ -1,0 +1,388 @@
+*
+ {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+ }
+ .chatbotContainer
+ {
+  height: 100vh;
+  width: 100%;
+ }
+ .chatbotHead
+ {
+  height: 50px;
+  width: 100%;
+  background: rgb(0,0,0,0.1);
+  backdrop-filter: blur(15px);
+  box-shadow: 0px 0px 10px rgb(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  position: relative;
+ }
+ .chatbotDp
+ {
+  height: 40px;
+  width: 40px;
+  background: ;
+  border: ;
+  border-radius: 50%;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+ }
+ .maidp
+ {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+ }
+ .headName
+ {
+  font-size: 30px;
+  margin-left: 5px;
+  color: ;
+ }
+ .seetingIcon
+ {
+  position: absolute;
+  right: 10px;
+  font-size: 25px;
+ }
+ .chatBotBox
+  {
+   height: 93vh;
+   width: 100%;
+   background: ;
+   position: relative;
+  }
+  .searchContainer
+  {
+   height: 50px;
+   width: 100%;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   display: flex;
+   align-items: center;
+   background: rgb(0,0,0,0.1);
+  backdrop-filter: blur(15px);
+  box-shadow: 0px 0px 10px rgb(0,0,0,0.5);
+  z-index: 1;
+  }
+  .camaraIcon
+  {
+   font-size: 35px;
+   margin-left: 5px;
+  }
+  #choose-file
+  {
+   position: absolute;
+   margin-left: 5px;
+   opacity: 0;
+   width: 30px;
+  }
+  .microIcon
+  {
+   font-size: 35px;
+   position: absolute;
+   right: 5px;
+  }
+  .inputMes
+  {
+   height: 40px;
+   width: 73%;
+   margin-left: 5px;
+   border-radius: 20px;
+   outline: none;
+   border: none;
+   background: transparent;
+   padding-left: 5px;
+   font-size: 18px;
+   padding-right: 5px;
+   
+  }
+  .chatBox
+  {
+   height: 85vh;
+   width: 97%;
+   background: ;
+   padding: 5px;
+   overflow: scroll;
+   margin-top: ;
+  }
+  .abhiJinal
+  {
+  width: 100%;
+   display: inline-flex;
+   align-items: ;
+   justify-content: space-between;
+   gap: 5px;
+  }
+  .abhi
+  {
+   background: #ff004f;
+   padding: 5px;
+   width: ;
+   word-break: break-word;
+   border-radius: 5px;
+  }
+  .jinal 
+  {
+   background: rgb(0,0,0,0.1);
+   padding: 5px;
+   width: ;
+   
+   border-radius: 5px;
+  }
+  .chat
+  {
+   padding: 5px;
+   width: 50%;
+   border-radius: 5px;
+   position: ;
+   left: 5px;
+   margin-top: 10px;
+   background: red;
+   word-wrap: break-word;
+   
+  }
+  .user
+  {
+   padding: 5px;
+   width: 97%;
+   border-radius: 5px;
+   position: ;
+   right: 5px;
+   margin-top: 10px;
+   background: ;
+   word-wrap: break-word;
+   display: flex;
+   align-items: ;
+   flex-direction: column;
+   gap: 5px;
+  }
+ .containerHead
+    {
+     padding: 10px;
+     background-color: transparent;
+     display: flex;
+     align-items: center;
+     justify-content: ;
+     gap: 10px;
+     overflow-x: scroll;
+     
+    }
+    .slideName
+    {
+     padding: 5px;
+     width: ;
+     border-radius: 5px;
+     font-size: 18px;
+     letter-spacing: ;
+     color: ;
+     background: whitesmoke;
+    }
+    .sandImg
+    {
+     height: 200px;
+     width: 250px;
+     border-radius: 5px;
+     object-fit: cover;
+     
+    }
+    .imgContainer
+    {
+     height: 200px;
+     width: 250px;
+     object-fit: cover;
+     margin-top: 5px;
+    }
+    .navBarContainer
+    {
+     height: 84vh;
+     width: 70%;
+     background: rgb(0,0,0,0.1);
+     backdrop-filter: blur(15px);
+     box-shadow: 0px 0px 10px rgb(0,0,0,0.5);
+     position: fixed;
+     top: 51px;
+     right: 0px;
+     z-index: 2;
+     padding: 5px;
+     display: none;
+     transition: 1s ease-in-out;
+    }
+    .closeNavbar
+    {
+     padding: 5px;
+     text-align: right;
+     background: ;
+     font-size: 25px;
+    }
+    .navName
+    {
+     padding: 10px;
+     font-size: 30px;
+     font-weight: bold;
+     margin-top: 20px;
+    }
+    .editnameNav
+    {
+     padding: 10px;
+     background: rgb(0,0,0,0.1);
+     border-radius: 5px;
+     font-size: 18px;
+     display: flex;
+     align-items: center;
+     margin-left: ;
+     margin-top: 5px;
+    }
+    .editIcone
+    {
+      padding: 5px;
+    }
+    .lightdarkBox
+    {
+     display: flex;
+     align-items: center;
+     padding: 10px;
+     background: rgb(0,0,0,0.1);
+     border-radius: 5px;
+     font-size: 18px;
+     margin-top: 5px;
+     position: relative;
+     
+    }
+    .lightNav
+    {
+     padding: 5px;
+     display: flex;
+     align-items: center;
+     visibility: hidden;
+     width: 100%;
+    }
+    .darkNav
+    {
+     padding: 5px;
+     display: flex;
+     align-items: center;
+     position: absolute;
+     width: 100%;
+    }
+    #dpContainer
+    {
+     height: ;
+     gap: 15px;
+     width: ;
+     white-space: nowrap;
+     overflow-x: scroll; 
+     background: ;
+     padding: 5px;
+     position: relative;
+    }
+    .dpBox
+    {
+     width: 70px;
+     height: 70px;
+     border-radius: 50%;
+     display: inline-flex;
+     background: whitesmoke;
+     align-items: center;
+     justify-content: center;
+     position: ;
+    }
+    .dpImg
+    {
+     height: 60px;
+     width: 60px;
+     border-radius: 50%;
+    }
+    .adddpBox
+    {
+     width: 70px;
+     height: 70px;
+     border-radius: 50%;
+     display: inline-flex;
+     background: ;
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+     margin-left: 5px;
+     top: 5px;
+     box-shadow: 0px 0px 15px rgb(0,0,0,0.5);
+    }
+    .addIo
+    {
+     font-size: 30px;
+     color: ;
+     margin-left: -30px;
+    }
+    .adimdp
+    {
+     opacity: 0;
+     width: 30px;
+     z-index: 1;
+    }
+    .creditContainer
+    {
+     height: 395px;
+     width: 245px;
+     padding: 5px;
+     background: rgb(0,0,0,0.1);
+     backdrop-filter: blur(15px);
+     box-shadow: 0px 0px 10px rgb(0,0,0,0.5);
+     position: absolute;
+     margin-top: 5px;
+     left: 5px;
+     z-index: 2;
+     display: none;
+    }
+    .creditHead
+    {
+     padding: 5px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    }
+    .creditTitle
+    {
+     font-size: 25px;
+     font-weight: bold;
+    }
+    .closeCredit
+    {
+     font-size: 20px;
+     padding: 5px;
+    }
+    .creditText
+    {
+     text-align: center;
+     font-size: 18px;
+     margin-top: 20px;
+    }
+    .abhishek
+    {
+     font-weight: bold;
+     font-family: Monospace;
+    }
+    .html
+    {
+     font-weight: bold;
+     color: red;
+     font-family: Monospace;
+    }
+    .css
+    {
+     font-weight: bold;
+     color: #5558ff;
+     font-family: Monospace;
+    }
+    .js
+    {
+     font-weight: bold;
+     color: green;
+     font-family: Monospace;
+    }

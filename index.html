@@ -1,0 +1,98 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>ChatBot</title>
+ <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!-- Chatbot Container-->
+ <div class="chatbotContainer">
+  <!-- Chatbot Head -->
+  <div class="chatbotHead">
+   <div class="chatbotDp" id="abhi">
+    <img class="maidp" src="chatbota.png" alt="">
+   </div>
+   <p class="headName">ChatBot85</p>
+   <ion-icon class="seetingIcon" name="menu-outline" onclick="shonav()"></ion-icon>
+  </div>
+  <!-- Chatbot Head over -->
+   <!-- Navbar Container -->
+  <div class="navBarContainer" id="navbatcon">
+   <p class="closeNavbar" onclick="clonav()">x</p>
+   <p class="navName" id="navname"></p>
+   <p class="editnameNav" onclick="edname()"><ion-icon name="pencil-outline" class="editIcone"></ion-icon> Edit Name</p>
+    <p class="editnameNav"><ion-icon name="logo-ionitron" class="editIcone"></ion-icon> ChatBot Dp</p>
+     <!-- dp container -->
+   <div id="dpContainer">
+    <div class="dpBox" onclick="dpa()">
+     <img class="dpImg" src="chatbota.png" alt="">
+    </div>
+    <div class="dpBox" onclick="dpb()">
+     <img class="dpImg" src="chatbotb.png" alt="">
+    </div>
+    <div class="dpBox" onclick="dpc()">
+     <img class="dpImg" src="chatbotc.png" alt="">
+    </div>
+    <div class="adddpBox">
+     <input type="file" class="adimdp" id="addDp" name="" accept="image/*">
+     <ion-icon class="addIo" name="add-outline"></ion-icon>
+    </div>
+    
+   </div>
+   <!-- dp container over -->
+   <div class="lightdarkBox">
+    <p class="lightNav" onclick="light()"><ion-icon name="sunny-outline" class="editIcone"></ion-icon>Light</p>
+    <p class="darkNav" onclick="dark()"><ion-icon name="moon-outline" class="editIcone"></ion-icon>Dark</p>
+   </div>
+   <p class="editnameNav" onclick="shcredit()"><ion-icon name="card-outline" class="editIcone"></ion-icon>Credit</p>
+  </div>
+  <!-- Navebar Container over-->
+  <!-- credit container-->
+  <div class="creditContainer" id="creditContainer">
+   <div class="creditHead">
+    <p class="creditTitle">ChatBot85 Credit</p>
+    <p class="closeCredit" onclick="clcredit()">x</p>
+   </div>
+   <p class="creditText">
+    This ChatBot was build by <span class="abhishek">Abhishek Mewada</span>.<br>About ChatBot :<br>This Programming Languages use to build ChatBot<br><span class="html">HTML</span><br><span class="css">CSS</span><br><span class="js">JS</span>.
+   </p>
+  </div>
+  <!-- credit container over-->
+  <!-- Chatbot box -->
+  <div class="chatBotBox">
+   <!-- searchContainer -->
+   <div class="searchContainer">
+    <ion-icon class="camaraIcon" name="camera-outline" onclick="getImgData()"></ion-icon>
+    <input type="file" id="choose-file" name="" accept="image/*">
+    <input type="text" name="" id="inputUser" class="inputMes" placeholder="Message" onkeypress="sendbut()">
+    <ion-icon
+    class="microIcon" name="mic-outline" onclick="speech()"></ion-icon>
+   </div>
+   <!-- searchContainer over -->
+   <!-- suggestion search-->
+  <!--  <div class="containerHead">
+            <p class="slideName">Hello</p>
+            <p class="slideName">OpenGoogle</p>
+            <p class="slideName">Comedy</p>
+            <p class="slideName">Show</p>
+            <p class="slideName">Action</p>
+            <p class="slideName">Technology</p>
+           </div> -->
+   <!-- suggestion search over-->
+   <div class="chatBox" id="chatbox">
+    <!-- Chatbot Answer-->
+ <div id="user" class="user"></div>
+    
+    <!-- Chatbot Answer over-->
+   </div>
+  </div>
+  <!-- Chatbox box over -->
+ </div>
+ <!-- Chatbot Container over-->
+</body>
+</html>
+<script src="script.js"></script>
