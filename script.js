@@ -116,7 +116,7 @@ function light() {
 
  
  var navname = document.getElementById("navname").innerHTML = proname;
-var user = document.getElementById("user").innerHTML += "Hello," + proname + "<br>" + "how could I help you ?";
+
 
 function edname() {
 var pronameb = prompt("Enter your name");
