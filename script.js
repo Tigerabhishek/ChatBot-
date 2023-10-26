@@ -54,7 +54,15 @@ message = {
   user.prepend(chatBox);
   
   }else {
-   var ctext = document.createTextNode("Sorry 😞,I can't give you reply on this message");
+   var chatBox = document.createElement("p");
+  
+  chatBox.classList.add('jinal');
+  
+  var ctext = document.createTextNode("Sorry 😔, I can't give you reply on rhis message");
+  
+  chatBox.appendChild(ctext);
+  
+  user.prepend(chatBox);
   }
  }
  
