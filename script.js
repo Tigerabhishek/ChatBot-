@@ -58,7 +58,7 @@ message = {
   
   cBox.classList.add('jinal');
   
-  var ctet = document.createTextNode("Sorry 😔, I can't give you reply on this message");
+  var ctet = document.createTextNode("sorry 😔, I can't give you reply on this message");
   
   cBox.appendChild(ctet);
   
