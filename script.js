@@ -54,15 +54,15 @@ message = {
   user.prepend(chatBox);
   
   }else {
-   var chatBox = document.createElement("p");
+   var cBox = document.createElement("p");
   
-  chatBox.classList.add('jinal');
+  cBox.classList.add('jinal');
   
-  var ctext = document.createTextNode("Sorry 😔, I can't give you reply on rhis message");
+  var ctet = document.createTextNode("Sorry 😔, I can't give you reply on this message");
   
-  chatBox.appendChild(ctext);
+  cBox.appendChild(ctet);
   
-  user.prepend(chatBox);
+  user.prepend(cBox);
   }
  }
  
