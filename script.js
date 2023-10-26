@@ -54,7 +54,7 @@ message = {
   user.prepend(chatBox);
   
   }else {
-   alert("error");
+   var ctext = document.createTextNode("Sorry 😞,I can't give you reply on this message");
   }
  }
  
